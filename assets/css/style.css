@@ -1,0 +1,27 @@
+header {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+body {
+  font-famile: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+aside {
+  float: right;
+}
+section {
+  float: left;
+}
+footer {
+  text-align: center;
+}
+#img {
+  float: left;
+}
+.topSection {
+  background-color: #ffffff;
+}
+.header-name {
+  float: left;
+}
+.header-side {
+  float: right;
+}
