@@ -115,3 +115,13 @@ footer {
   height: 50px;
   margin-top: 10px;
 }
+h4 {
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%;
+}
+.image {
+  position: relative;
+  width: 100%;
+}
