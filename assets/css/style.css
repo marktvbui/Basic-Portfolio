@@ -1,10 +1,23 @@
 header {
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #ffffff;
+  border: solid;
+  border-color: #cccccc;
+  font-size: 25px;
 }
 body {
-  font-famile: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #ffffff;
+  border: solid;
+  border-color: #dddddd;
+  background-image: url("assets/images/playstation-pattern.png")
+  padding-left: 100px;
 }
 aside {
+  width: 270px;
   float: right;
 }
 section {
@@ -12,16 +25,48 @@ section {
 }
 footer {
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: #666666;
 }
-#img {
+input {
+  width: 100%;
+}
+.selfPic {
+  max-height: 150px;
+  max-width: 150px;
   float: left;
+}
+.paragraph {
+
 }
 .topSection {
   background-color: #ffffff;
+  width: 960px;
 }
 .header-name {
   float: left;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
 }
 .header-side {
   float: right;
+}
+.socialImage {
+  max-width: 75px;
+  max-height: 75px;
+}
+.wrapperTop {
+  width: 650px;
+  padding-left: 50px;
+}
+.contactForm {
+  width: 650px;
+  float: left;
+}
+.submit {
+  width: 150px;
+  height: 75px;
 }

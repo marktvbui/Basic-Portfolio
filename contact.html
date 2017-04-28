@@ -3,26 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <title="Mark Bui"></title>
-    <link rel=”stylesheet” type="text/css" href=”/assets/css/reset.css”>
-    <link rel=”stylesheet” type="text/css" href=”/assets/css/style.css”>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
 
   <body>
     <header>
       <h1 class="header-name">Mark Bui</h1>
-      <nav class="header-side">About | Portfolio | Contact</nav>
+      <nav class="header-side"><a href="index.html">About</a> | <a href="Portfolio.html">Portfolio</a> |<a href="contact.html"> Contact</a></nav>
     </header>
-
+    <div class="contactForm">
     Contact
-    Name:
-    Email:
-    Message:
-    <aside>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="your email here">
+        <br>
+        <label for="message">Message</label>
+        <input type="string" id="message" name="message" placeholder="message here">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div> 
       Connect with me
       <br>
-      <a href="https://github.com/marktvbui"><img src="assets/images/github.png"></a>
-      <a href="https://www.linkedin.com/in/mark-bui/"><img src="assets/images/linkedin.png"></a>
-      <a href="http://stackoverflow.com/users/7724019/mark-bui"><img src="assets/images/stackoverflow.png"></a>
+      <a href="https://github.com/marktvbui"><img src="assets/images/github.png" class="socialImage"></a>
+      <a href="https://www.linkedin.com/in/mark-bui/"><img src="assets/images/linkedin.png" class="socialImage"></a>
+      <a href="http://stackoverflow.com/users/7724019/mark-bui"><img src="assets/images/stackoverflow.png" class="socialImage"></a>
     </aside>
     <footer>
     Copyright @2017 Mark Bui
